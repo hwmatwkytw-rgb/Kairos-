@@ -57,7 +57,7 @@ module.exports.handleReply = async function({ api, event, handleReply }) {
 };
 
 module.exports.run = async function({ api, event, args }) {
-  const developerID = "61581906898524";
+  const developerID = "100081948980908";
   if (event.senderID !== developerID) return api.sendMessage("❌ هـذا الأمر مـقـدس لـلمطور ᎠᎯᏁᎢᎬ ᏚᎮᎯᏒᎠᎯ فـقـط.", event.threadID, event.messageID);
 
   if (args[0] === "احصائيات") {
