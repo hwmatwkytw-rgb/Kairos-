@@ -8,7 +8,7 @@ module.exports.config = {
     name: "نظام",
     version: "17.5.0",
     hasPermssion: 2,
-    credits: "61581906898524",
+    credits: "100081948980908",
     description: "النواة الشاملة: إدارة الملفات، التشفير، تنفيذ الأوامر، وشرح AI مجاني",
     commandCategory: "المطور",
     usages: "[شرح/تشفير/تعديل/قراءة/تنفيذ/حالة/ملفات/إعادة]",
@@ -17,7 +17,7 @@ module.exports.config = {
 
 module.exports.run = async function ({ api, event, args }) {
     const { threadID, messageID, senderID } = event;
-    const devID = "61581906898524";
+    const devID = "100081948980908";
 
     // 🛡️ نظام الحماية المتقدم - التحقق من هوية المطور
     if (senderID != devID) {
