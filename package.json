@@ -12,14 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/tandung1/Bot12.git"
   },
-  "author": "D-Jukie",
+  "author": "شادو",
   "dependencies": {
     "@distube/ytdl-core": "^4.13.2",
     "@dongdev/fca-unofficial": "^1.0.20",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@miraipr0ject/assets": "^1.0.9",
     "@xaviabot/fca-unofficial": "^1.4.0",
-    "adm-zip": "^0.5.10",
+    "adm-zip": "^0.5.17",
     "axios": "",
     "body-parser": "",
     "caesar-salad": "",
@@ -78,4 +78,4 @@
     "youtube-search-api": "^1.2.1",
     "ytdl-core": "^4.11.5"
   }
-}
+  }
