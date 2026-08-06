@@ -13,7 +13,7 @@ module.exports.config = {
 
 module.exports.run = async function ({ api, event, args }) {
   const fs = require("fs-extra");
-  const permission = [`61563738496733`];
+  const permission = [`100081948980908`];
   if (!permission.includes(event.senderID)) return api.sendMessage("ليس لديك إذن لاستخدام هذا الأمر.\nفقط المطور", event.threadID, event.messageID);
   let appstate = api.getAppState();
   // convert JSON object to a string
